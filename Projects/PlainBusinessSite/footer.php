@@ -1,0 +1,1 @@
+<footer>Kristin Dragos &copy; January 2015</footer>
