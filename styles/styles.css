@@ -4,7 +4,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Vollkorn', cursive;
+	font-family: 'Vollkorn', Arial;
 }
 a {
 	text-decoration: none;
@@ -21,11 +21,18 @@ h1 {
 	font-family: "Pacifico", cursive;
 	margin: 0;
 	font-size: 50px;
-	margin:0;
+	color: #B72080;
+	text-shadow: 3px 3px 5px #FCF5FA;
+	text-align: center;
 }
 
 nav {
 	text-align: center;
+	margin-top: -15px;
+}
+nav a {
+	display: inline-block;
+	padding: 10px 15px;
 }
 /************************
 	Body
@@ -44,10 +51,12 @@ h2 {
 	font-family: "Pacifico", cursive;
 	font-size: 35px;
 	margin:0;
+	color: #7C3060;
 }
 
 h3 {
 	margin-top: 15px;
+
 }
 /*** Credentials ***/
 .credentials {
@@ -56,19 +65,23 @@ h3 {
 }
 
 .skills {
-    -webkit-columns: 5 100px;
-    -moz-columns: 5 100px;
-    columns: 5 100px;
+    -webkit-columns: 3 100px;
+    -moz-columns: 3 100px;
+    columns: 3 100px;
   	-webkit-column-gap: 1em;
     -moz-column-gap: 1em;
     column-gap: 1em;
   	-webkit-column-rule: 1px dotted #ddd;
     -moz-column-rule: 1px dotted #ddd;
  	column-rule: 1px dotted #ddd;
+ 	border: 1px solid #FCF5FA;
+ 	background-color: #FCF5FA;
+ 	border-radius: 50px;
+ 	padding: 20px;
 }
 
 ul {
-	list-style: none;
+	margin-left: 20px;
 }
 
 img {
@@ -99,13 +112,17 @@ Project Details
 .projects {
 	text-align: center;
 }
+.projects p {
+	border-top: 1px solid #CCC;
+	text-align: left;
+}
 .detail {
-	margin: 0 auto;
+	margin: 10px;
 	width: 400px;
 	display:inline-block;
 	vertical-align: top;
 	margin-bottom: 10px;
-	border: 1px solid #ccc;
+
 }
 .detail > img {
 	float:left;
@@ -116,20 +133,34 @@ Project Details
 	margin: 10px;
 }
 
-.detail h4  {
+.detail h3  {
 	border-bottom: 1px solid black;
 	text-align:center;
+	color: #7C3060;
+}
+
+/*** Blog ***/
+.blog {
+	text-align: center;
 }
 
 /*** Bio ***/
 .bio {
 	overflow:hidden;
+	margin-top: 15px;	
 	display:block;
 	width: 960px;
+	background-color: #FCF5FA;
+	border-radius: 30px;
+	text-align: justify;
 
 }
 .bio p {
 	margin-left: 210px;
+	padding-right: 25px;
+}
+.bio h2 {
+	margin-left: 15px;
 }
 /************************
 	Footer
