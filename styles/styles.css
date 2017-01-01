@@ -126,6 +126,8 @@ Project Details
 }
 .detail img {
 	float:left;
+	width: 600px;
+	height: 400px;
 }
 .detail > div {
 	display:inline-block;
