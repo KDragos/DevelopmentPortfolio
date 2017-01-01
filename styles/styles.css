@@ -126,8 +126,8 @@ Project Details
 }
 .detail img {
 	float:left;
-	max-width: 300px;
-	max-height: 150px;
+	max-width: 400px;
+	max-height: 250px;
 }
 .detail > div {
 	display:inline-block;
